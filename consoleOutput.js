@@ -1,3 +1,5 @@
+// source https://www.toptal.com/javascript/interview-questions
+
 var arr1 = "john".split('');
 var arr2 = arr1.reverse();
 var arr3 = "jones".split('');
@@ -14,4 +16,4 @@ Why?
 - calling reverse will reverse the contents of the array and the array itself, so arr1 is actually in reverse order
 - arr2 is a reference to arr1, not a copy, so anything done to arr2 will also affect arr1 since they reference the same object
 - arr3 is pushed as a single element to arr2, not pushed as individual elements, like `.concat` would
-- subscript of -1 in the slice method will remove the last element in the array 
+- subscript of -1 in the slice method will remove the last element in the array
