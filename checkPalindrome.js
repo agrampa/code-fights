@@ -14,7 +14,7 @@ function checkPalindrome(inputString) {
       last --;
       first ++;
     }
-
   };
+
   return true;
 }
