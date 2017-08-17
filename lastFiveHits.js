@@ -25,5 +25,6 @@ function logHits(counter) {
 let mInterval = setInterval(function() {
   logHits(3)
   }, 1000)
+}
 
 mInterval()
